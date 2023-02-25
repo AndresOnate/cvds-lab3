@@ -35,3 +35,18 @@ El comando para ejecutar la clase AppTest es `mvn -Dtest=edu.eci.cvds.tdd.AppTes
 ---
 
 ## EJERCICIO “REGISTRADURÍA”
+
+Creamos las enumeraciones y clases para el esqueleto de la aplicación:
+
+![image](https://user-images.githubusercontent.com/63562181/221381336-0710fc4b-4c0f-43ca-8970-872e11ff60bb.png)
+
+### EJECUTAR LAS PRUEBAS
+
+Ejecutamos el comando `mvn package`:
+
+![image](https://user-images.githubusercontent.com/63562181/221381411-8b95ef87-6b52-4de2-85e1-889c02a3a386.png)
+
+Ejecutamos el comando `mvn test`:
+
+![image](https://user-images.githubusercontent.com/63562181/221381435-dd666d9e-beb6-4c13-90d8-841194dac03f.png)
+
