@@ -31,3 +31,7 @@ Para ejecutar las pruebas unitarias ejecutamos el comando `mvn test`
 El comando para ejecutar la clase AppTest es `mvn -Dtest=edu.eci.cvds.tdd.AppTest test`
 
 ![image](https://user-images.githubusercontent.com/63562181/221379889-d3144255-c832-4559-beaf-8462a30fb6b9.png)
+
+---
+
+## EJERCICIO “REGISTRADURÍA”
