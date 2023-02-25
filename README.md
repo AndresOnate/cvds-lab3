@@ -1,7 +1,7 @@
-# cvds-lab03
-
-# CLASES DE EQUIVALENCIA
-# CREAR UN PROYECTO CON MAVEN
+# LABORATORIO 3 - PBT
+## CLASES DE EQUIVALENCIA
+---
+## CREAR UN PROYECTO CON MAVEN
 
 Creamos un nuevo proyecto con los valores dados en el enunciado del laboratorio:
 
