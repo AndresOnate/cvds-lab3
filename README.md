@@ -27,3 +27,7 @@ Para compilar ejecutamos el comando `mvn compile`
 Para ejecutar las pruebas unitarias ejecutamos el comando `mvn test`
 
 ![image](https://user-images.githubusercontent.com/63562181/221335617-fb06a274-14e0-4169-8e9f-0b230ba0555a.png)
+
+El comando para ejecutar la clase AppTest es `mvn -Dtest=edu.eci.cvds.tdd.AppTest test`
+
+![image](https://user-images.githubusercontent.com/63562181/221379889-d3144255-c832-4559-beaf-8462a30fb6b9.png)
