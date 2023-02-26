@@ -87,3 +87,5 @@ Implementación del método registerVoter en la clase Registry.java:
 ```
 ---
 ## EJERCICIO "DESCUENTO DE TARIFAS"
+
+No se logró acceder a los recursos en moodle
