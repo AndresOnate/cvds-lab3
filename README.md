@@ -69,7 +69,7 @@ Implementación del método registerVoter en la clase Registry.java:
 
 		int age = person.getAge();
 
-    if (!person.isAlive()) {
+    		if (!person.isAlive()) {
 			  return RegisterResult.DEAD;
 
 		} else if (age >= 0 && age <= 17) {
