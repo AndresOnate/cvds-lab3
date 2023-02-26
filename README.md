@@ -61,4 +61,3 @@ Los casos de equivalencia propuestos son los siguientes:
 3. Edad mayor a 114 o atributo alive es false (DEAD)
 4. Edad menor o igual a 0 o un número mayor a 114 (INVALID_AGE)
 5. Id de la persona duplicado (DUPLICATED)
-6. 
