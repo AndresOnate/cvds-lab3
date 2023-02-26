@@ -85,3 +85,5 @@ Implementación del método registerVoter en la clase Registry.java:
 		return RegisterResult.VALID;
 }
 ```
+---
+## EJERCICIO "DESCUENTO DE TARIFAS"
