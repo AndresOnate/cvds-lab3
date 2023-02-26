@@ -58,6 +58,30 @@ Los casos de equivalencia propuestos son los siguientes:
 
 1. Edad mayor a 0 y menor o igual a 17 (UNDERAGE)
 2. Edad mayor a 17 y menor 114 (VALID)
-3. Edad mayor a 114 o atributo alive es false (DEAD)
+3. Atributo alive es false (DEAD)
 4. Edad menor o igual a 0 o un número mayor a 114 (INVALID_AGE)
 5. Id de la persona duplicado (DUPLICATED)
+
+Implementación del método registerVoter en la clase Registry.java:
+
+```
+    public RegisterResult registerVoter(Person person) {
+
+		int age = person.getAge();
+
+    if (!person.isAlive()) {
+			  return RegisterResult.DEAD;
+
+		} else if (age >= 0 && age <= 17) {
+			  return RegisterResult.UNDERAGE;
+
+		} else if (age < 0 || age > 114) {
+		  	return RegisterResult.INVALID_AGE;
+
+		} else if (age > 17 && age < 114 && isPersonRegistered(person)) {
+			  return RegisterResult.DUPLICATED;
+		}
+		registeredPersons.add(person);
+		return RegisterResult.VALID;
+}
+```
